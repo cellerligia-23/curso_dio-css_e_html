@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(14, 13, 13);
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.content {
+  text-align: center;
+}
+
+.content-1 img {
+  margin-top: 40px;
+  
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./assets/imgs/banner.png");
+  width: 100%;
+  height: 605px;
+  border-bottom: 1px solid #33A8DB;
+  
+}
+
+.content-1 h1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46.96px;
+  background-clip: text;
+  background: -webkit-linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.content-1 p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+}
+
+.content-1 button {
+  background-clip: text;
+  background: -webkit-linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 326px;
+  height: 57px;
+  border: 2px solid #3BA1CD;
+  margin-top: 30px;
+  padding: 16px, 35px;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+/***********************************************************************************************************/
+.content-2 {
+  text-align: center;
+  border-bottom: 1px solid #33A8DB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-2 h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 19%;
+  color: #33A8DB;
+  margin-top: 15px;
+  
+}
+
+.content-2 p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.content-2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-2 div button {
+  width: 535px;
+  height: 51px;
+  padding: 16px, 127px, 16px, 127px;
+  border-radius: 57px; 
+  border: 1px solid #3BA1CD;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(37, 37, 37, 1);
+}
+
+.content-2 div span {
+  color: rgba(51, 168, 219, 1);
+}
+
+/************************************************************************************************/
+.content-3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 560px;
+  border-bottom: 1px solid #33A8DB;
+  padding: 200px;
+  background-image: url("./assets/imgs/woman-code.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content-3 div {
+  width: 244px;
+  height: 141px;
+  position: absolute;
+}
+.content-3 div h3 {
+  font-size: 40px;
+  font-weight: 900px;
+  line-height: 46.96px;
+  color: #ffffff;
+  text-shadow: 3px 2px rgba(51, 168, 219, 1);
+  text-align: start;
+}
+/************************************************************************************************/
+.content-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #33A8DB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-4 h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 19%;
+  text-align: center;
+  color: #33A8DB;
+  margin-top: 25px;
+}
+
+.content-4 img {
+  width: 659px;
+  height: 429px;
+  top: 1685px;
+  left: 390px;
+}
+
+.content-4 p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  color: #ffffff;
+}
+/*********************************************************************************************/
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 170px;
+  top: 2321px;
+}
+
+.container-2 img{
+  margin-top: 40px;
+  width: 310px;
+  height: 44px;
+  left: 565px;
+  top: 59px;
+}
+.container-2 p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.container-2 p a{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  color: rgba(51, 168, 219, 1);
+}
